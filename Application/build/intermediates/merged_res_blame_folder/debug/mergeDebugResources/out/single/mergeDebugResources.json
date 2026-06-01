@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\layout_fota_layout.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\layout\\fota_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\menu_main.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_mac_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_mac_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\layout_qr_scanner_layout.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\layout\\qr_scanner_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\menu_gatt_services.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_input_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_circle_red.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\circle_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_check.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\check.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_system_update_alt_24px.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\system_update_alt_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_circle_green.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\circle_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable-hdpi_tile.9.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_rounded_corner_view.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\rounded_corner_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_layer_list.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\layer_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_header_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_header_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_dropdown_24px.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\dropdown_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_cloud_upload.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\cloud_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_progress_drawable.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_progress_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\layout_gatt_services_characteristics.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\layout\\gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_log_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_log_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_arrow_drop_down_24px.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\arrow_drop_down_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_progress_bar_horizontal.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\progress_bar_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_label_24px.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\label_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_icon_back.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\icon_back.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_button_secondary_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_button_secondary_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_card_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_circle_state.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\circle_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\layout_readconfigwindow.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\layout\\readconfigwindow.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_download_icon.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\download_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_scan_image.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\scan_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\layout_listitem_device.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_circle_state_red_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\circle_state_red_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_logo_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_logo_bg.xml"
+    },
+    {
+        "merged": "com.example.android.FOTA_new.Application-debug-41:/layout_gatt_services_characteristics.xml.flat",
+        "source": "com.example.android.FOTA_new.Application-main-44:/layout/gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\layout_debug_window.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\layout\\debug_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_clogo.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\clogo.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_icon_btn_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_icon_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_electric_bolt_24px.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\electric_bolt_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_cloud_upload_24px.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\cloud_upload_24px.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_button_primary.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_cloud.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\cloud.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_fota_status_bg.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\fota_status_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-debug-41:\\drawable_switch_btn.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.13\\com.example.android.FOTA_new.Application-main-44:\\drawable\\switch_btn.xml"
+    }
+]

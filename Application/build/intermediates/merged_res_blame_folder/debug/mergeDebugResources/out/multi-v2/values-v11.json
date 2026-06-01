@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.android.FOTA_new.Application-mergeDebugResources-39:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\NEW SYSTEM\\FOTA_V1_curr\\Application\\src\\main\\res\\values-v11\\template-styles.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "669",
+                        "endColumns": "65",
+                        "endOffsets": "730"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

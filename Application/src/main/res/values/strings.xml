@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">MAC address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">RIO Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="uplink_time">Uplink Time:</string>
+    <string name="uplink">uplink\n</string>
+    <string name="eeprom_event_read">EEPROM EVENT READ</string>
+    <string name="logs">LOGS</string>
+    <string name="debug">DEBUG</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="exit">EXIT</string>
+    <string name="nb">NB</string>
+    <string name="at">AT</string>
+    <string name="send_cmd">SEND CMD</string>
+    <string name="read_config">READ CONFIG</string>
+    <string name="nb_ip_config">NB IP CONFIG</string>
+    <string name="valve_config">VALVE CONFIG</string>
+    <string name="_0000000">0000000</string>
+    <string name="scm_set">SCM SET</string>
+    <string name="rtc_set">RTC SET</string>
+    <string name="uplink2">Uplink:</string>
+    <string name="num11">11</string>
+    <string name="num16">16</string>
+    <string name="apn_config">APN CONFIG</string>
+    <string name="log">log</string>
+    <string name="uplink_set">UPLINK SET</string>
+    <string name="valve_control">VALVE CONTROL</string>
+    <string name="close">CLOSE</string>
+    <string name="open">OPEN</string>
+    <string name="magnet_tamper">MAGNET TAMPER</string>
+    <string name="super_flow">SUPER FLOW</string>
+    <string name="tilt_function">TILT FUNCTION</string>
+    <string name="server_parameter">SERVER PARAMETER:</string>
+    <string name="ip">IP:</string>
+    <string name="port">PORT:</string>
+    <string name="jioipiot">JioIPIoT</string>
+    <string name="apn">APN:</string>
+    <string name="device_state">Device state:</string>
+    <string name="_2402000001">2402000001</string>
+    <string name="set_ser">SET SER</string>
+    <string name="eeprom_log_read">EEPROM LOG READ</string>
+    <string name="ble_name_set">BLE NAME SET</string>
+    <string name="nb_en">NB EN</string>
+    <string name="at_command">AT COMMAND</string>
+    <string name="nb_enable">NB enable :</string>
+    <string name="eerpom_tamper_read">EEPROM TAMPER READ</string>
+    <string name="config">CONFIG</string>
+    <string name="_00000000">00000000</string>
+    <string name="super_flow_count">SUPER FLOW COUNT</string>
+    <string name="pulse_led">Pulse LED</string>
+    <string name="ir">IR</string>
+    <string name="calibration_mode">CALIBRATION MODE:</string>
+    <string name="_0000">0000</string>
+    <string name="read">READ</string>
+    <string name="save_excel">SAVE EXCEL</string>
+    <string name="set">SET</string>
+    <string name="exit_window">Exit</string>
+    <string name="fota_update">FOTA UPDATE</string>
+    <string name="browse">Browse</string>
+    <string name="start_fota">START FOTA</string>
+    <string name="device_name_">Device name:</string>
+    <string name="login">Login</string>
+    <string name="next">NEXT</string>
+    <string name="password">PASSWORD</string>
+    <string name="user_name">USER NAME</string>
+    <string name="integrity_check">Integrity check</string>
+    <string name="_0">0%</string>
+    <string name="fota_upgradation">FOTA UPGRADATION</string>
+    <string name="install">Install</string>
+    <string name="default_mac">A4:C3:F0:85:1D:2E</string>
+</resources>

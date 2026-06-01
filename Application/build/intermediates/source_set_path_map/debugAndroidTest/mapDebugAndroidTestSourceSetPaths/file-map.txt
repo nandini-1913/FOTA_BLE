@@ -1,0 +1,5 @@
+com.example.android.FOTA_new.test.Application-androidTest-0 D:\NEW SYSTEM\FOTA_V1_curr\Application\build\generated\res\resValues\androidTest\debug
+com.example.android.FOTA_new.test.Application-updated_navigation_xml-1 D:\NEW SYSTEM\FOTA_V1_curr\Application\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.android.FOTA_new.test.Application-mergeDebugAndroidTestResources-2 D:\NEW SYSTEM\FOTA_V1_curr\Application\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.android.FOTA_new.test.Application-mergeDebugAndroidTestResources-3 D:\NEW SYSTEM\FOTA_V1_curr\Application\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.android.FOTA_new.test.Application-debugAndroidTest-4 D:\NEW SYSTEM\FOTA_V1_curr\Application\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rounded_corner_view"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/label_device_address"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/device_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rounded_corner_view"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/device_state"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/connection_state"
+            android:layout_width="233dp"
+            android:layout_height="24dp"
+            android:layout_margin="5dp"
+            android:text="@string/disconnected"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/log_layout"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rounded_corner_view"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/read_logcat"
+            android:layout_width="287dp"
+            android:layout_height="273dp"
+            android:gravity="bottom"
+            android:hint="@string/log"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/clear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/clear_btn"
+                android:layout_width="34dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/ic_notification_clear_all"
+                tools:ignore="ContentDescription" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/copy_btn"
+                android:layout_width="34dp"
+                android:layout_height="48dp"
+                android:src="?android:attr/actionModeCopyDrawable"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_corner_view"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/read_config"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="read"
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="@string/read" />
+
+
+        <Space
+            android:layout_width="25dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/save_excel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="@string/save_excel"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_corner_view"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:onClick="exitApp"
+            android:text="@string/exit_window" />
+
+        <Space
+            android:layout_width="25dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ble_name_config_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:onClick="ble_name_config"
+            android:text="@string/ble_name_set" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1"
+    package="com.example.android.FOTA_new"
+    android:versionName="1.0">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-feature android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+
+    <application
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="FOTA_BLE"
+        android:theme="@android:style/Theme.Holo.Light"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name="com.example.android.FOTA_new.DebugWindow"
+            android:theme="@style/Theme.AppCompat.Light"
+
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.android.FOTA_new.ReadConfigWindow"
+            android:theme="@style/Theme.AppCompat.Light"
+
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.android.FOTA_new.Fota"
+            android:theme="@style/Theme.AppCompat.Light"
+
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.android.FOTA_new.CustomCaptureActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.android.FOTA_new.DeviceScanActivity"
+
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name="com.example.android.FOTA_new.DeviceControlActivity"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <service
+            android:name="com.example.android.FOTA_new.BluetoothLeService"
+            android:enabled="true" />
+
+        <receiver android:name=".mGattUpdateReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.android.bluetoothlegatt.ACTION_GATT_CONNECTED"/>
+                <action android:name="com.example.android.bluetoothlegatt.ACTION_GATT_DISCONNECTED"/>
+                <action android:name="com.example.android.bluetoothlegatt.ACTION_GATT_SERVICES_DISCOVERED"/>
+                <action android:name="com.example.android.bluetoothlegatt.ACTION_DATA_AVAILABLE"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

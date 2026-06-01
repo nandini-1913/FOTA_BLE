@@ -1,0 +1,4 @@
+#Mon Jun 01 16:54:35 IST 2026
+base.0=D\:\\NEW SYSTEM\\FOTA_V1_curr\\Application\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

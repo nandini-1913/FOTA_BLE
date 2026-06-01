@@ -1,0 +1,380 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.FOTA_new"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:8:5-10:35
+12        android:name="android.hardware.bluetooth_le"
+12-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:9:9-53
+13        android:required="true" />
+13-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:10:9-32
+14
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:12:5-68
+15-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:12:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:13:5-74
+16-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:13:22-71
+17    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+17-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:14:5-73
+17-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:14:22-70
+18    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+18-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:15:5-76
+18-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:15:22-73
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:16:5-79
+19-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:16:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:17:5-81
+20-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:17:22-78
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:18:5-81
+21-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:18:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:19:5-80
+22-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:19:22-77
+23    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+23-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:20:5-81
+23-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:20:22-79
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:21:5-65
+24-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:21:22-62
+25
+26    <uses-feature
+26-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:22:5-83
+27        android:name="android.hardware.camera"
+27-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:22:19-57
+28        android:required="true" />
+28-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:22:58-81
+29
+30    <uses-permission android:name="android.permission.FLASHLIGHT" />
+30-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:23:5-69
+30-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:23:22-66
+31
+32    <uses-feature
+32-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:24:5-25:36
+33        android:name="android.hardware.camera.autofocus"
+33-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:24:19-67
+34        android:required="false" />
+34-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:25:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+36        android:name="android.hardware.camera.front"
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+38    <uses-feature
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+39        android:name="android.hardware.camera.flash"
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+40        android:required="false" />
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+41    <uses-feature
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+42        android:name="android.hardware.screen.landscape"
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+43        android:required="false" />
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+44    <uses-feature
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+45        android:name="android.hardware.wifi"
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+46        android:required="false" />
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+47
+48    <permission
+48-->[androidx.core:core:1.18.0] C:\Users\dell\.gradle\caches\8.13\transforms\387c2aaa1bb7560efd06d622f8ad63f3\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+49        android:name="com.example.android.FOTA_new.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+49-->[androidx.core:core:1.18.0] C:\Users\dell\.gradle\caches\8.13\transforms\387c2aaa1bb7560efd06d622f8ad63f3\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+50        android:protectionLevel="signature" />
+50-->[androidx.core:core:1.18.0] C:\Users\dell\.gradle\caches\8.13\transforms\387c2aaa1bb7560efd06d622f8ad63f3\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+51
+52    <uses-permission android:name="com.example.android.FOTA_new.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+52-->[androidx.core:core:1.18.0] C:\Users\dell\.gradle\caches\8.13\transforms\387c2aaa1bb7560efd06d622f8ad63f3\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+52-->[androidx.core:core:1.18.0] C:\Users\dell\.gradle\caches\8.13\transforms\387c2aaa1bb7560efd06d622f8ad63f3\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+53    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+54    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+54-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+54-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+55    <uses-permission android:name="android.permission.INTERNET" />
+55-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+55-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+56
+57    <application
+57-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:28:5-92:19
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.18.0] C:\Users\dell\.gradle\caches\8.13\transforms\387c2aaa1bb7560efd06d622f8ad63f3\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+59        android:debuggable="true"
+60        android:extractNativeLibs="false"
+61        android:icon="@mipmap/ic_launcher"
+61-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:30:9-43
+62        android:label="FOTA_BLE"
+62-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:31:9-33
+63        android:requestLegacyExternalStorage="true"
+63-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:33:9-52
+64        android:theme="@android:style/Theme.Holo.Light" >
+64-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:32:9-56
+65        <activity
+65-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:34:9-39:20
+66            android:name="com.example.android.FOTA_new.DebugWindow"
+66-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:35:13-68
+67            android:exported="true"
+67-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:38:13-36
+68            android:theme="@style/Theme.AppCompat.Light" >
+68-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:36:13-57
+69        </activity>
+70        <activity
+70-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:41:9-46:20
+71            android:name="com.example.android.FOTA_new.ReadConfigWindow"
+71-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:42:13-73
+72            android:exported="true"
+72-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:45:13-36
+73            android:theme="@style/Theme.AppCompat.Light" >
+73-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:43:13-57
+74        </activity>
+75        <activity
+75-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:48:9-53:20
+76            android:name="com.example.android.FOTA_new.Fota"
+76-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:49:13-61
+77            android:exported="true"
+77-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:52:13-36
+78            android:theme="@style/Theme.AppCompat.Light" >
+78-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:50:13-57
+79        </activity>
+80        <activity
+80-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:55:9-60:20
+81            android:name="com.example.android.FOTA_new.CustomCaptureActivity"
+81-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:56:13-78
+82            android:exported="true"
+82-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:59:13-36
+83            android:theme="@style/Theme.AppCompat.Light" >
+83-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:57:13-57
+84        </activity>
+85        <activity
+85-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:62:9-72:20
+86            android:name="com.example.android.FOTA_new.DeviceScanActivity"
+86-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:63:13-75
+87            android:exported="true" >
+87-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:65:13-36
+88            <intent-filter>
+88-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:67:13-70:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:68:17-69
+89-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:68:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:69:17-77
+91-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:69:27-74
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:75:9-76:57
+95            android:name="com.example.android.FOTA_new.DeviceControlActivity"
+95-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:75:19-84
+96            android:windowSoftInputMode="adjustResize" />
+96-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:76:13-55
+97
+98        <service
+98-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:78:9-80:38
+99            android:name="com.example.android.FOTA_new.BluetoothLeService"
+99-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:79:13-75
+100            android:enabled="true" />
+100-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:80:13-35
+101
+102        <receiver
+102-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:82:9-90:20
+103            android:name="com.example.android.FOTA_new.mGattUpdateReceiver"
+103-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:82:19-54
+104            android:exported="true" >
+104-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:83:13-36
+105            <intent-filter>
+105-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:84:13-89:29
+106                <action android:name="com.example.android.bluetoothlegatt.ACTION_GATT_CONNECTED" />
+106-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:85:17-99
+106-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:85:25-97
+107                <action android:name="com.example.android.bluetoothlegatt.ACTION_GATT_DISCONNECTED" />
+107-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:86:17-102
+107-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:86:25-100
+108                <action android:name="com.example.android.bluetoothlegatt.ACTION_GATT_SERVICES_DISCOVERED" />
+108-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:87:17-109
+108-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:87:25-107
+109                <action android:name="com.example.android.bluetoothlegatt.ACTION_DATA_AVAILABLE" />
+109-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:88:17-99
+109-->D:\NEW SYSTEM\FOTA_V1_curr\Application\src\main\AndroidManifest.xml:88:25-97
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\dell\.gradle\caches\8.13\transforms\0a733333642d7028a998b11bcfce85ad\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+114            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+114-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\dell\.gradle\caches\8.13\transforms\0a733333642d7028a998b11bcfce85ad\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+115            android:directBootAware="true"
+115-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:17:13-43
+116            android:exported="false" >
+116-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\dell\.gradle\caches\8.13\transforms\0a733333642d7028a998b11bcfce85ad\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+117            <meta-data
+117-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\dell\.gradle\caches\8.13\transforms\0a733333642d7028a998b11bcfce85ad\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+118                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+118-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\dell\.gradle\caches\8.13\transforms\0a733333642d7028a998b11bcfce85ad\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\dell\.gradle\caches\8.13\transforms\0a733333642d7028a998b11bcfce85ad\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+120            <meta-data
+120-->[com.google.mlkit:vision-common:17.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\da9f22d6009a2c6e895681e7617279e4\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+121                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+121-->[com.google.mlkit:vision-common:17.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\da9f22d6009a2c6e895681e7617279e4\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.mlkit:vision-common:17.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\da9f22d6009a2c6e895681e7617279e4\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+123            <meta-data
+123-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:20:13-22:85
+124                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+124-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:21:17-120
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:22:17-82
+126        </service>
+127
+128        <provider
+128-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:9:9-13:38
+129            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+129-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:10:13-78
+130            android:authorities="com.example.android.FOTA_new.mlkitinitprovider"
+130-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:11:13-69
+131            android:exported="false"
+131-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:12:13-37
+132            android:initOrder="99" />
+132-->[com.google.mlkit:common:18.11.0] C:\Users\dell\.gradle\caches\8.13\transforms\627f61294e3b495f900b575370164198\transformed\jetified-common-18.11.0\AndroidManifest.xml:13:13-35
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\dell\.gradle\caches\8.13\transforms\f37bd010c31c7ed200130b9fbabc6908\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\dell\.gradle\caches\8.13\transforms\f37bd010c31c7ed200130b9fbabc6908\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\dell\.gradle\caches\8.13\transforms\f37bd010c31c7ed200130b9fbabc6908\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\dell\.gradle\caches\8.13\transforms\f37bd010c31c7ed200130b9fbabc6908\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\153aa9f62a67ce73c5bad10bdac75f6b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\153aa9f62a67ce73c5bad10bdac75f6b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\153aa9f62a67ce73c5bad10bdac75f6b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+142
+143        <activity
+143-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+144            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+144-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+145            android:clearTaskOnLaunch="true"
+145-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+146            android:screenOrientation="sensorLandscape"
+146-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+147            android:stateNotNeeded="true"
+147-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+148            android:theme="@style/zxing_CaptureTheme"
+148-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+149            android:windowSoftInputMode="stateAlwaysHidden" />
+149-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\784103a80b8bfc22377175428c72406b\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+150
+151        <provider
+151-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\0cbe343614403bb23b063726add83b65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+152            android:name="androidx.startup.InitializationProvider"
+152-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\0cbe343614403bb23b063726add83b65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+153            android:authorities="com.example.android.FOTA_new.androidx-startup"
+153-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\0cbe343614403bb23b063726add83b65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+154            android:exported="false" >
+154-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\0cbe343614403bb23b063726add83b65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+155            <meta-data
+155-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\0cbe343614403bb23b063726add83b65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+156                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+156-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\0cbe343614403bb23b063726add83b65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+157                android:value="androidx.startup" />
+157-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dell\.gradle\caches\8.13\transforms\0cbe343614403bb23b063726add83b65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+158            <meta-data
+158-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dell\.gradle\caches\8.13\transforms\7f422d072582d65d4bebf07b8951c54d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+159                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+159-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dell\.gradle\caches\8.13\transforms\7f422d072582d65d4bebf07b8951c54d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+160                android:value="androidx.startup" />
+160-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dell\.gradle\caches\8.13\transforms\7f422d072582d65d4bebf07b8951c54d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+161            <meta-data
+161-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+162                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+163                android:value="androidx.startup" />
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+164        </provider>
+165
+166        <receiver
+166-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+167            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+168            android:directBootAware="false"
+168-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+169            android:enabled="true"
+169-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+170            android:exported="true"
+170-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+171            android:permission="android.permission.DUMP" >
+171-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+172            <intent-filter>
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+173                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+174            </intent-filter>
+175            <intent-filter>
+175-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+176                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+177            </intent-filter>
+178            <intent-filter>
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+179                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+180            </intent-filter>
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+182                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dell\.gradle\caches\8.13\transforms\cf640ddd6686081319112a8f57a52f07\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+183            </intent-filter>
+184        </receiver>
+185
+186        <service
+186-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+187            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+187-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+188            android:exported="false" >
+188-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+189            <meta-data
+189-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+190                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+190-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+191                android:value="cct" />
+191-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\dell\.gradle\caches\8.13\transforms\55289e83f1a125e1d57723ef83fa40c1\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+192        </service>
+193        <service
+193-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dell\.gradle\caches\8.13\transforms\b847fffca9bc620050c139515189b470\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+194            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+194-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dell\.gradle\caches\8.13\transforms\b847fffca9bc620050c139515189b470\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+195            android:exported="false"
+195-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dell\.gradle\caches\8.13\transforms\b847fffca9bc620050c139515189b470\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+196            android:permission="android.permission.BIND_JOB_SERVICE" >
+196-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dell\.gradle\caches\8.13\transforms\b847fffca9bc620050c139515189b470\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+197        </service>
+198
+199        <receiver
+199-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dell\.gradle\caches\8.13\transforms\b847fffca9bc620050c139515189b470\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+200            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+200-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dell\.gradle\caches\8.13\transforms\b847fffca9bc620050c139515189b470\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+201            android:exported="false" />
+201-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\dell\.gradle\caches\8.13\transforms\b847fffca9bc620050c139515189b470\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+202    </application>
+203
+204</manifest>

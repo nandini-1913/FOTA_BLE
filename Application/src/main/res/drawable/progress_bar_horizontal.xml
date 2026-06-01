@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background of the ProgressBar -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#D3D3D3"/> <!-- Light grey background -->
+            <corners android:radius="4dp"/>  <!-- Rounded corners -->
+        </shape>
+    </item>
+
+    <!-- Foreground (Progress) of the ProgressBar -->
+    <item android:id="@android:id/progress">
+        <shape>
+            <solid android:color="#0C680F"/>  <!-- Green color for progress -->
+            <corners android:radius="4dp"/>  <!-- Rounded corners -->
+        </shape>
+    </item>
+</layer-list>
