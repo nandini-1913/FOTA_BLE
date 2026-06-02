@@ -1,55 +1,79 @@
-> **Warning**
-> This sample has been deprecated and is no longer being maintained.
-> 
-> Find the new bluetooth samples in the new [platform-samples repo](https://github.com/android/platform-samples/tree/main/samples/connectivity/bluetooth).
+# 📡 FOTA_BLE — Firmware Over The Air via Bluetooth LE (Android)
 
+An Android application that enables **wireless firmware upgrades** for BLE-enabled embedded devices using the OTA (Over-The-Air) protocol over Bluetooth Low Energy GATT.
 
-Android BluetoothLeGatt Sample
-===================================
+---
 
-This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
-to transmit arbitrary data between devices.
+## 🚀 Features
 
-Introduction
-------------
+- 🔵 **BLE Device Discovery & Connection** — Scan, connect, and manage BLE devices seamlessly
+- 📦 **Firmware File Selection** — Browse and load firmware `.txt` (converted binary) files from device storage
+- 📡 **OTA Channel Support** — Supports multiple OTA channels (`VOLTA_DA`, `RIO_DA`, etc.)
+- 🔄 **OTA Trigger** — Initiates the firmware upgrade handshake with the target device
+- 📥 **Chunked Firmware Download** — Sends firmware in 258 packets with ACK verification per packet
+- ✅ **3-Step Status Tracking** — Visual progress through CONSENT → INTEGRITY → INSTALLED stages
+- 📊 **Real-time Progress Bar** — Live download percentage display (0–100%)
+- 🖥️ **Console Log Window** — Live hex dump and status messages for debugging
+- 🔒 **CRC Verification** — Device-side CRC check after all packets are sent
+- 💡 **FOTA Upgradation Screen** — Simple one-tap upgrade flow for end-users
 
-This sample shows a list of available Bluetooth LE devices and provides
-an interface to connect, display data and display GATT services and
-characteristics supported by the devices.
+---
 
-It creates a [Service][1] for managing connection and data communication with a GATT server
-hosted on a given Bluetooth LE device.
+## 📱 Screenshots
 
-The Activities communicate with the Service, which in turn interacts with the [Bluetooth LE API][2].
+| FOTA Home | FOTA Manager | Upgrading | Complete |
+|-----------|-------------|-----------|----------|
+| ![Home](Screenshot_20260601-170800.png) | ![Manager](Screenshot_20260601-170817.png) | ![Progress](Screenshot_20260601-171301.png) | ![Done](Screenshot_20260601-101721.png) |
 
-[1]:http://developer.android.com/reference/android/app/Service.html
-[2]:https://developer.android.com/reference/android/bluetooth/BluetoothGatt.html
+---
 
-Pre-requisites
---------------
+## 🛠️ Tech Stack
 
-- Android SDK 28
-- Android Build Tools v28.0.3
-- Android Support Repository
+- **Language:** Java (Android)
+- **BLE API:** Android BluetoothGatt / BluetoothLeScanner
+- **Protocol:** Custom OTA over BLE GATT characteristics
+- **Build System:** Gradle
+- **Min SDK:** Android SDK 28+
 
-Screenshots
--------------
+---
 
-<img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
+## 📋 How It Works
 
-Getting Started
----------------
+1. App scans and connects to target BLE device via MAC address
+2. GATT services are discovered; MTU is negotiated (255 bytes)
+3. User selects the firmware file and OTA channel
+4. **OTA Trigger** initiates the upgrade handshake
+5. Firmware is split into packets and sent with ACK per packet
+6. Device performs CRC validation after all packets are received
+7. Install command is sent; device reboots with new firmware
+8. All 3 steps (CONSENT, INTEGRITY, INSTALLED) turn green ✅
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+---
 
-Support
--------
+## ⚙️ Getting Started
 
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
+```bash
+git clone https://github.com/nandini-1913/FOTA_BLE.git
+```
 
-If you've found an error in this sample, please file an issue:
-https://github.com/android/connectivity
+Open in **Android Studio**, let Gradle sync, then build and run on a physical Android device (BLE requires real hardware).
 
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
+> ⚠️ Bluetooth permissions and Location permission required on Android 10+.
+
+---
+
+## 📁 Project Structure
+FOTA_BLE/
+├── Application/       # Main Android app source
+├── android/           # Android-specific configs
+├── daemon/            # Background BLE service
+├── native/            # Native layer (if any)
+├── FOTA NEW.java      # Core FOTA logic
+└── build.gradle       # Gradle build config
+
+---
+
+## 👩‍💻 Author
+
+**Nandini Malviya**  
+[LinkedIn](https://www.linkedin.com/in/nandini-malviya-1183aa280) • [GitHub](https://github.com/nandini-1913)
