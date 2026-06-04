@@ -22,8 +22,7 @@ An Android application that enables **wireless firmware upgrades** for BLE-enabl
 ## 📱 Screenshots
 
 | FOTA Home | FOTA Manager | Upgrading | Complete |
-|-----------|-------------|-----------|----------|
-| ![Home](Screenshot_20260601-170800.png) | ![Manager](Screenshot_20260601-170817.png) | ![Progress](Screenshot_20260601-171301.png) | ![Done](Screenshot_20260601-101721.png) |
+| APP IMAGES.png)  |
 
 ---
 
